@@ -14,5 +14,5 @@ variable "ssh_key_path" {
 }
  
 variable "bucket_name" {
-    bucket = "pawel-szczurek-panda-devops-core-15"
+    #bucket = "pawel-szczurek-panda-devops-core-15"
 }
