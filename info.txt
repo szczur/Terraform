@@ -1,6 +1,7 @@
 terraform init
 terraform destroy
 terraform show
+terraform init -update ? upgrade ?
 
 
 
