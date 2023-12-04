@@ -3,6 +3,7 @@ terraform destroy
 terraform show
 terraform init -upgrade
 terraform console
+terraform state list
 
 
 

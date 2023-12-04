@@ -44,10 +44,10 @@ resource "aws_security_group" "sg_pub" {
  
 # output
  
-#output "alb_dns_name" {
- # value = aws_lb.alb.dns_name
-#}
+output "alb_dns_name" {
+    value = aws_lb.alb.dns_name
+}
  
-#output "ami_id" {
-#  value = data.aws_ami.latest_ubuntu.image_id
-#}
+output "ami_id" {
+    value = data.aws_ami.latest_ubuntu.image_id
+}
